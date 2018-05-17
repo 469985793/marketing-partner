@@ -1,0 +1,71 @@
+/*created by szatpig on 2017/9/27*/
+.login-container{
+  height: 100%;
+  background: url("../assets/bg.jpg") center top no-repeat;
+  background-size: cover;
+  position: relative;
+  .login-from{
+    width:340px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    .el-icon-search{
+      right: inherit;
+      top: 0;
+      left: 6px;
+      font-size: 20px;
+    }
+
+    .login-system-name{
+      font-size: 30px;
+      text-align: center;
+      margin-bottom: 55px;
+      color: #fff;
+      letter-spacing: 2px;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -moz-cursor: default;
+      -webkit-cursor: default;
+      -ms-cursor: default;
+      cursor: default;
+    }
+
+    .my-account,.my-password{
+      font-family: 'iconfont' !important;
+      font-style:normal;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      color: #bfcbd9;
+      font-size: 19px;
+      position: absolute;
+      width: 35px;
+      height: 100%;
+      right: inherit;
+      top: 4px;
+      left:17px;
+      transition: all .3s;
+    }
+
+    input.el-input__inner{
+      background-color: transparent;
+      color: #fff;
+      height: 45px;
+      border-radius: 45px;
+      padding-left: 45px;
+    }
+    button{
+      width: 100%;
+      background-color: #e76b5f;
+      height: 45px;
+      border-radius: 45px;
+      outline: none;
+      border: none;
+    }
+  }
+}

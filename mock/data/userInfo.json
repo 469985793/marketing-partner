@@ -1,0 +1,33 @@
+{
+  "userList": {
+    "code": 1,
+    "message": "操作成功",
+    "data": {
+      "identityNo": "13511604618",
+      "uniqueCode": "13511604618",
+      "identityType": 1,
+      "isBinding": 1,
+      "token": "eafd8427-ed18-4a3a-a233-67e4aa0d095c"
+    }
+  },
+  "information": {
+    "code":1,
+    "message":"执行成功",
+    "data": {
+      "account":"asdfewrw323",
+      "name":"张**",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00",
+      "frozenEndTime":"2017-10-10 13:00:00",
+      "errorPassTimes":5,
+      "roles":"超级管理员"
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

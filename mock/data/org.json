@@ -1,0 +1,31 @@
+{
+  "orglist": {
+    "code":1,
+    "message":"执行成功",
+    "data": [{
+      "id":121,
+      "name":"苏州瑞翼",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":122,
+      "name":"苏州瑞鹏",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":123,
+      "name":"苏州瑞小云",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00"
+    }]
+  }
+}

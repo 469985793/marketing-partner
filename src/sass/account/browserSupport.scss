@@ -1,0 +1,13 @@
+*{margin:0;padding:0}
+.clearfix:after{content: '';clear:both;display: block;}
+.text{text-align: center;color:#ddd;font-size: 26px;padding-top: 20px;}
+.error_photo {text-align: center;margin-top: 50px;margin-bottom: 50px;}
+.error_photo img{height:250px;width:250px;border-radius: 250px;}
+.solve_part{background-color:#FDFDFD;min-height: 200px;}
+.solve_part p {text-align: center;color: #9AA3AA;font-family: Microsoft YaHei;letter-spacing: 2px;height:auto;}
+.solve_part .solve_border{background: url(../assets/shadow.png);height: 10px;}
+.solve_part .solve_icon{display: block;width:422px;margin:0 auto;text-align: center;margin-top: 20px;}
+.solve_part .solve_icon li{width:140px;display:block;list-style: none;position: relative;padding: 32px;float:left;}
+.solve_part .solve_icon li p{display: block;}
+.solve_part .solve_icon li button{border-radius: 15px;border:0px;color: #9AA3AA;position: absolute;height: 24px;width: 52px;top: 107px;left: 43px;background: #E9EDEE; font-family: Microsoft YaHei;outline: none;cursor: pointer;transition: all .5s;overflow: hidden;}
+.solve_part .solve_icon li button:hover{background-color: #FDFDFD;color:#CABB79;border: 1px solid;border-color: #9AA3AA;}

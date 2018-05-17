@@ -1,0 +1,249 @@
+/*created by szatpig on 2017/9/27*/
+//基色
+$color-main: #e76b5f;
+$color-green:#13CE66;
+$color-yellow:#F7BA2A;
+$color-blue:#20A0FF;
+
+
+
+
+html,body,#app{
+  height: 100%;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.wid_80{
+  width:85%;
+}
+
+.txt-green{
+  color: $color-green;
+  font-size: 12px;
+}
+.text-red{
+  color:$color-main;
+  font-size: 12px;
+}
+
+.clearfix:after{
+  /* 必须设置一个空的congtent,否则不起作用  */
+  content: "";
+  /* 转换成块元素  */
+  display: block;
+  clear: both;
+}
+
+
+//按钮颜色
+.el-button--gray{
+  background-color: #e4e8f1;
+  border-color: #e4e8f1;
+  color: #48576a;
+  &:hover{
+    background-color: #d7dbe2;
+    border-color: #d7dbe2;
+    color: #48576a;
+  }
+}
+
+.el-button--pink{
+  background-color: #e76b5f;
+  border-color: #e76b5f;
+  color: #fff;
+  &:hover{
+    background-color: #fc6c6c;
+    border-color: #fc6c6c;
+    color: #fff;
+  }
+}
+
+
+[class^="el-icon-my"], [class*=" el-icon-my"] {
+  font-family: 'iconfont'  !important;
+  /* 以下内容参照第三方图标库本身的规则 */
+  font-size: inherit;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-common{
+  font-family: 'iconfont' !important;
+  font-style:normal;
+  font-weight:bold;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+
+
+.icon-loginout{
+  font-family: 'iconfont' !important;
+  font-style:normal;
+  font-weight:bold;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+.common-container{
+  background-color: #fff;
+  min-height: 300px;
+}
+
+
+.home-container{
+  height: 100%;
+  .header-container{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color: #16191c;
+    border-color: #37474f;
+    border-width: 1px 0;
+    border-bottom-color: hsla(0,0%,100%,.1);
+    color: #fff;
+    .header-logo{
+      color: #fff;
+    }
+    .header-info{
+      .img-area{
+        .logo-img{
+          margin-top: 8px;
+          width: 35px;
+          height: 35px;
+          border-radius: 30px;
+        }
+      }
+      .information-show {
+        margin: 0 20px 0 20px;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+.content-container{
+  background-color: #f0f0f0;
+  padding-left: 180px;
+  position: relative;
+  transition: all .3s cubic-bezier(.55,0,.1,1);
+  &.hidenav{
+    padding-left: 64px;
+  }
+  .menu-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    background-color: #212528;
+    transition: all .3s cubic-bezier(.55,0,.1,1);
+    .el-menu--dark{
+      background-color: inherit;
+      width: 180px;
+    }
+    .el-menu--collapse{
+      width: 64px !important;
+    }
+    .el-menu-item-group__title{
+      padding: 0 !important;
+    }
+    .el-submenu .el-menu-item {
+       min-width: 100%;
+    }
+  }
+  .el-content{
+    height: 100%;
+    .menu-left{
+      height: 100%;
+      background-color: #324157;
+      overflow: hidden;
+    }
+  }
+  .content-right{
+    .title-container{
+      height: 45px;
+      line-height: 45px;
+      background-color: #fff;
+      padding-left: 20px;
+      .collapse-icon{
+        font-family: 'iconfont' !important;
+        font-style:normal;
+        font-weight:bold;
+        font-size: 20px;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        cursor: pointer;
+      }
+    }
+    .content-component{
+      padding: 20px;
+    }
+  }
+}
+
+.el-menu--horizontal.el-menu--dark .el-submenu .el-menu-item.is-active, .el-menu-item.is-active {
+  color: #e76b5f;
+}
+.el-menu--dark .el-submenu .el-menu {
+  background-color: #2a2d30;
+}
+.el-menu--dark .el-submenu .el-menu .el-menu-item:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+.el-menu--dark .el-submenu__title:hover,.el-menu--dark .el-menu-item:hover{
+  background-color: transparent;
+  color: #e76b5f;
+}
+
+//查询样式
+.search-container{
+  text-align: right;
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  .el-input__inner:focus {
+    outline: 0;
+    border-color: #e76b5f;
+  }
+  .search-key{
+    width:240px;
+    margin-right: 12px;
+  }
+  .search-btn{
+    background-color: #13ce66;
+    border: none;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  .search-add{
+    padding: 10px 25px;
+    border: none;
+  }
+}
+.search-table{
+  padding: 20px;
+}
+.search-page{
+  text-align: right;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.cell-arrow{
+  margin: auto 15px auto 15px;
+  padding-bottom: 9px;
+  @extend .icon-common;
+  font-size: 28px;
+  color: #abacad;
+}
+
+

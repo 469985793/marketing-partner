@@ -1,0 +1,43 @@
+{
+  "list": {
+    "code":1,
+    "message":"执行成功",
+    "data": [{
+      "account":"asdfewrw323",
+      "name":"张**",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00",
+      "frozenEndTime":"2017-10-10 13:00:00",
+      "errorPassTimes":5,
+      "operator":""
+    },{
+      "account":"asdfewrw323",
+      "name":"张**",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00",
+      "frozenEndTime":"2017-10-10 13:00:00",
+      "errorPassTimes":5,
+      "operator":""
+    },{
+      "account":"asdfewrw323",
+      "name":"张**",
+      "mobile":"153********",
+      "email":"****@163.com",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00",
+      "frozenEndTime":"2017-10-10 13:00:00",
+      "errorPassTimes":5,
+      "operator":""
+    }]
+  }
+}

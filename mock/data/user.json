@@ -1,0 +1,141 @@
+{
+  "login": {
+    "code": 1,
+    "message": "操作成功",
+    "data": {
+      "identityNo": "13511604618",
+      "uniqueCode": "13511604618",
+      "identityType": 1,
+      "isBinding": 1,
+      "token": "eafd8427-ed18-4a3a-a233-67e4aa0d095c",
+      "avatar":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png"
+    }
+  },
+  "honorList":{
+    "code": 1,
+    "message": "操作成功",
+    "data": {
+      "totalRow": 15,
+      "total": 2,
+      "pageIndex": 1,
+      "list": [
+        {
+          "times": "108",
+          "idp": "idp_99",
+          "fee": "100.00",
+          "continueWin": "13",
+          "totalTicket": "33",
+          "account": "139****9816",
+          "winPercent": "51.00",
+          "isWithVoteStatus": "5",
+          "gain": "14, 255,231.19"
+        },
+        {
+          "times": "12",
+          "idp": "idp_119",
+          "fee": "10.00",
+          "continueWin": "9",
+          "totalTicket": "9",
+          "account": "159****5815",
+          "winPercent": "88.00",
+          "isWithVoteStatus": "5",
+          "gain": "18,126.19"
+        },
+        {
+          "times": "100119",
+          "idp": "idp_98",
+          "fee": "10.00",
+          "continueWin": "21",
+          "totalTicket": "47",
+          "account": "139****4731",
+          "winPercent": "48.00",
+          "isWithVoteStatus": "5",
+          "gain": "10, 663.93"
+        },
+        {
+          "times": "22",
+          "idp": "idp_106",
+          "fee": "0.00",
+          "continueWin": "5",
+          "totalTicket": "9",
+          "account": "151****1301",
+          "winPercent": "55.00",
+          "isWithVoteStatus": "2",
+          "gain": "2,377.33"
+        },
+        {
+          "times": "2",
+          "idp": "idp_115",
+          "fee": "0.00",
+          "continueWin": "1",
+          "totalTicket": "1",
+          "account": "181****1025",
+          "winPercent": "100.00",
+          "isWithVoteStatus": "2",
+          "gain": "1,597.56"
+        },
+        {
+          "times": "13",
+          "idp": "idp_97",
+          "fee": "100.00",
+          "continueWin": "4",
+          "totalTicket": "5",
+          "account": "186****4448",
+          "winPercent": "80.00",
+          "isWithVoteStatus": "5",
+          "gain": "891.21"
+        },
+        {
+          "times": "126",
+          "idp": "idp_116",
+          "fee": "0.00",
+          "continueWin": "5",
+          "totalTicket": "12",
+          "account": "135****4618",
+          "winPercent": "25.00",
+          "isWithVoteStatus": "5",
+          "gain": "768.12"
+        },
+        {
+          "times": "23",
+          "idp": "idp_121",
+          "fee": "50.00",
+          "continueWin": "5",
+          "totalTicket": "10",
+          "account": "187****7004",
+          "winPercent": "60.00",
+          "isWithVoteStatus": "5",
+          "gain": "615.63"
+        },
+        {
+          "times": "93",
+          "idp": "idp_107",
+          "fee": "5.00",
+          "continueWin": "2",
+          "totalTicket": "13",
+          "account": "188****2989",
+          "winPercent": "53.00",
+          "isWithVoteStatus": "5",
+          "gain": "402.54"
+        },
+        {
+          "times": "2",
+          "idp": "idp_100",
+          "fee": "0.00",
+          "continueWin": "1",
+          "totalTicket": "1",
+          "account": "132****5373",
+          "winPercent": "100.00",
+          "isWithVoteStatus": "2",
+          "gain": "23.90"
+        }
+      ]
+    },
+    "currPage": 0,
+    "totalPage": 0,
+    "total": 0
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

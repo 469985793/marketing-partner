@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "code":1,
+    "message":"执行成功",
+    "data": [{
+      "roleName":"超级管理员",
+      "roleSN":"dfgsdfgsdfgsdfg",
+      "status":1,
+      "statusStr":"激活",
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00",
+      "organization":{
+        "name":"苏州瑞翼",
+        "admin":"asdfasdf1234",
+        "mobile":"153********",
+        "email":"****@163.com",
+        "status":1,
+        "statusStr":"激活"
+      }
+    }]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

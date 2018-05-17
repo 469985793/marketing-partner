@@ -1,0 +1,18 @@
+.sms-template-container{
+  @extend .common-container;
+  .el-form-item__content{
+    .el-select{
+      width:100%;
+    }
+    .el-cascader{
+      width:100%;
+    }
+    .el-select{
+      width:100%;
+    }
+  }
+  #dataExport{
+    margin-left:20px;
+  }
+
+}

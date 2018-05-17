@@ -1,0 +1,49 @@
+<html lang="utf-8">
+<head>
+  <style>
+    *{margin:0;padding:0}
+    .clearfix:after{content: '';clear:both;display: block;}
+    .text{text-align: center;color:#ddd;font-size: 26px;padding-top: 20px;}
+    .erroor_photo {text-align: center;margin-top: 50px;margin-bottom: 50px;}
+    .errr_photo img{height:250px;width:250px;border-radius: 250px;}
+    .solve_part{background-color:#FDFDFD;min-height: 200px;position: relative}
+    .solve_part p {text-align: center;color: #9AA3AA;font-family: Microsoft YaHei;letter-spacing: 2px;height:auto;}
+    .solve_part .solve_border{height: 10px;}
+    .solve_part .solve_icon{display: block;width:422px;position:absolute;left:50%;text-align: center;margin-top: 20px;margin-left: -211px;}
+    .solve_part .solve_icon li{width:140px;display:block;list-style: none;position: relative;float:left;}
+    .solve_part .solve_icon li p{display: block;}
+    .solve_part .solve_icon li button{border-radius: 15px;border:0px;color: #9AA3AA;position: absolute;height: 24px;width: 52px;top: 107px;left: 43px;background: #E9EDEE; font-family: Microsoft YaHei;outline: none;cursor: pointer;transition: all .5s;overflow: hidden;}
+    .solve_part .solve_icon li button:hover{background-color: #FDFDFD;color:#CABB79;border: 1px solid;border-color: #9AA3AA;}
+  </style>
+</head>
+<body>
+<div class="browerSupport">
+    <div class="error_photo"><img src="src/assets/error.jpg">
+      <div class="text">浏览器不兼容哦</div>
+    </div>
+    <div class="solve_part">
+      <div class="solve_border"></div>
+      <p>
+      建议您使用以下几种浏览器打开本网站
+      </p>
+      <ul class="solve_icon clearfix">
+      <li>
+        <img src="src/assets/chrome.png">
+        <p>Chrome</p>
+        <button id="chrome" onclick="window.open('https://www.baidu.com/link?url=6elIJs74UbDmITmB4Onx_XrEm7SzeZQXPcpZhUr4w97t8WnlLsHbI8ARv5KgO9ZVnzef6MWeN0J4ygWDOyjbf4f2cCbjksnI0hIoRGlytGS&wd=&eqid=9bd7032100000a7f000000055a4c7c54')">下载</button>
+      </li>
+      <li>
+        <img src="src/assets/firefox.png">
+        <p>Firefox</p>
+        <button id="firefox" onclick="window.open('https://www.baidu.com/link?url=XIdisAH7xY798UbHMHubLBkM8BiLaXl2hePReAcHyccRzpPRgcTY89rppj-dCThUunYGwTFj_980jRh95rbSLJKQaMqd37ZlQ5TkFwa16py&wd=&eqid=cadd1ccd00000a49000000055a4c7c0d')">下载</button>
+      </li>
+      <li>
+      <img src="src/assets/ie.png">
+        <p>IE 10+</p>
+        <button id="ie10" onclick="window.open('http://sw.bos.baidu.com/sw-search-sp/software/df4994e4a5afd/EOIE10-WindowsXP-x86.exe')">下载</button>
+      </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

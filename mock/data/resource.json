@@ -1,0 +1,136 @@
+{
+  "list": {
+    "code":1,
+    "message":"执行成功",
+    "data": [{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+       }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    },{
+      "id":121,
+      "name":"资源1",
+      "url":"/html/privilege/***",
+      "type":2,
+      "level":1,
+      "child":[{
+        "name":"资源1",
+        "url":"/html/privilege/***",
+        "type":2,
+        "level":1,
+        "createTimeStr":"2017-10-09 13:00:00",
+        "updateTimeStr":"2017-10-09 13:00:00"
+      }],
+      "createTimeStr":"2017-10-09 13:00:00",
+      "updateTimeStr":"2017-10-09 13:00:00"
+    }]
+  }
+
+}
